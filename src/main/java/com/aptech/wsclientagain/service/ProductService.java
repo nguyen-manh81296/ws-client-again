@@ -12,7 +12,7 @@ public interface ProductService  {
     public Call<List<Product>> getProducts();
 
     @GET("/api/v1/products/{id}")
-    public Call<Product> getProductDetail(@Path("id") int id);
+    public Call<Product> getProductDetails(@Path("id") int id);
 
     @POST("/api/v1/products")
     public Call<Product> save(@Body Product product);

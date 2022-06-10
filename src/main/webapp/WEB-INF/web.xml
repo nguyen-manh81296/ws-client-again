@@ -6,7 +6,7 @@
 
 <servlet>
         <servlet-name>ws-client-again</servlet-name>
-        <servlet-class>com.aptech.wsclientagain.controller.GetProductServlet</servlet-class>
+        <servlet-class>com.aptech.wsclientagain.controller.GetProductController</servlet-class>
 </servlet>
 
 <servlet-mapping>

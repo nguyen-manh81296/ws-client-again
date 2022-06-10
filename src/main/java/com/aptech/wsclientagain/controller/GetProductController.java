@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class GetProductServlet extends HttpServlet {
+public class GetProductController extends HttpServlet {
 
     ProductService productService;
 
-    public GetProductServlet(){
+    public GetProductController(){
         productService = RetrofitServiceGenerator.createService(ProductService.class);
     }
 
